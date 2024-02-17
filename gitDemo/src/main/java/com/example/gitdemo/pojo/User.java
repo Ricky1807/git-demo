@@ -11,6 +11,16 @@ public class User {
 
     private Integer age;
 
+    private Double salary;
+
+    public Double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(Double salary) {
+        this.salary = salary;
+    }
+
     public String getName() {
         return name;
     }
