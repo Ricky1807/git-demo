@@ -17,6 +17,7 @@ public class User {
         return salary;
     }
 
+
     public void setSalary(Double salary) {
         this.salary = salary;
     }
